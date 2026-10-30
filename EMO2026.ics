@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EMO2026//Workshop//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:emo2026-morning-session@workshop
+DTSTAMP:20261030T000000Z
+DTSTART:20261108T003000Z
+DTEND:20261108T034000Z
+SUMMARY:EMO2026 - Morning session
+LOCATION:Online via Zoom
+DESCRIPTION:Beijing Time (UTC+8). Register for joining instructions.
+URL:https://ntu-sg.zoom.us/meeting/register/dBQAHjYsTua8Z0Olh68Lyg
+END:VEVENT
+BEGIN:VEVENT
+UID:emo2026-afternoon-session@workshop
+DTSTAMP:20261030T000000Z
+DTSTART:20261108T060000Z
+DTEND:20261108T090000Z
+SUMMARY:EMO2026 - Afternoon session
+LOCATION:Online via Zoom
+DESCRIPTION:Beijing Time (UTC+8). Register for joining instructions.
+URL:https://ntu-sg.zoom.us/meeting/register/dBQAHjYsTua8Z0Olh68Lyg
+END:VEVENT
+BEGIN:VEVENT
+UID:emo2026-evening-discussion@workshop
+DTSTAMP:20261030T000000Z
+DTSTART:20261108T130000Z
+DTEND:20261108T134500Z
+SUMMARY:EMO2026 - Evening discussion
+LOCATION:Online via Zoom
+DESCRIPTION:Beijing Time (UTC+8). Register for joining instructions.
+URL:https://ntu-sg.zoom.us/meeting/register/dBQAHjYsTua8Z0Olh68Lyg
+END:VEVENT
+END:VCALENDAR
