@@ -19,7 +19,7 @@
     if(session!=='evening')html+=data.talks.filter(t=>t.session===session).map(t=>row(t.time,t.label,escape(t.title),`<strong>${escape(t.name)}</strong> · ${escape(t.affiliation)}`,{talk:t.id})).join('');
     else html=`<div class="evening-intro"><h3>Discussion with Senior Professionals</h3><p>Short presentations, suggestions and conversations for young professionals.</p></div>`+
       row('21:00–21:05','','Welcome address','',{opening:true})+
-      row('21:05–21:20','','Short presentations and comments from senior professionals','<span class="person-line">Presentation 1: Haibiao Chen</span><span class="person-line">Presentation 2: Yong Cai</span><span class="person-line">Presentation 3: Haiming Li</span>')+
+      row('21:05–21:20','','Short presentations and comments from senior professionals','<span class="person-line">Presentation 1: Haibiao Chen</span><span class="person-line">Presentation 2: Yong Cai</span><span class="person-line">Presentation 3: Haizhao Li</span>')+
       row('21:20–21:40','','Suggestions for young professionals','Discussion guests:<span class="person-line"><strong>Qi-Jun Zhang</strong> · Carleton University</span><span class="person-line"><strong>Zhizhang (David) Chen</strong> · Dalhousie University</span>')+
       row('21:40–21:45','','Closing remarks and thanks','',{opening:true});
     $('#schedule').innerHTML=html;
